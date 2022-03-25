@@ -2,4 +2,10 @@ from colorama import Fore
 def main():
     infinity=1
     while infinity==1:
-        print(Fore.BLUE+"I am Aitzaz Imtiaz")
+        print(Fore.GREEN+"~ $ I am Aitzaz Imtiaz")
+    except KeyboardInterrupt:
+        print('~ $ I am Aitzaz Imtiaz')
+        try:
+            sys.exit(0)
+        except SystemExit:
+            os._exit(0)
