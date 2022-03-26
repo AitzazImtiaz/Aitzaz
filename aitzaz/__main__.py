@@ -6,5 +6,5 @@ def main():
     try:
         main()
     except KeyboardInterrupt:
-        print('~ $ I am Aitzaz Imtiaz')            sys.exit(0)
+        print('~ $ I am Aitzaz Imtiaz')    
         exit()
